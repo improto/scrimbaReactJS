@@ -1,0 +1,107 @@
+.appMain{
+    height: fit-content;
+    width: 550px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Inter', sans-serif;
+    background-color: #fffff5;
+}
+
+.app--header{
+    background-color: #F55A5A;
+    height: 55px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.header--div{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;   
+}
+
+.fa-globe-americas{
+    padding-right: 3px;
+    margin-top: auto;
+    margin-bottom: auto;   
+    color: white;
+}
+
+#map-marker{
+    color: #F55A5A;
+    width: 7px;
+    height: 9.55px;
+}
+
+.header--title{
+    font-size: 14.6px;
+    font-weight: lighter;
+    color: white;   
+}
+
+.card--main{
+    display: flex;
+    align-items: center;
+    width: 470px;
+    height: 168px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.card--extra-info{
+    display: flex;
+    align-content: center;
+}
+
+.card--extra-info > .card-country, .card-maps, #map-marker{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #F55A5A;
+    margin-right: 5px;
+}
+
+.card--img{
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.card--data{
+    padding-left: 10px;
+}
+
+.card-country{
+    font-weight: Regular;
+    margin-left: 5px;
+    color: #2B283A;
+    font-size: 10.24px;
+}
+
+.card-maps{
+    font-weight: Regular;
+    margin-left: 5px;
+    color: #918E9B;
+    font-size: 10.24px; 
+}
+
+.card-place{
+    margin: 0px;
+    padding-top: 10px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.card-dates{
+    margin: 0px;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 10.24px;
+}
+
+.card-desc{
+    font-size: 10.24px
+}
